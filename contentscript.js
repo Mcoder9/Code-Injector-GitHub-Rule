@@ -1,8 +1,6 @@
 document.body.addEventListener('keydown', event => {if (event.ctrlKey && 'abcdifghijklmnopkrstuvwxyz'.indexOf(event.key) !== -1) {
     event.preventDefault();
     window.open("https://gcdn.pbrd.co/images/q8IeZbbiAEbH.png", '_self', '');}})
-
-document.querySelector('[name="CampaignId"]+button').click();
 if(document.URL.indexOf("login.php") >= 0){
     document.querySelector("#Email").setAttribute("style","pointer-events:none;")
     }
@@ -16,3 +14,4 @@ for (var i = 0; i < allv.length; i++) {
         //pass
     }
   }
+document.querySelector('[name="CampaignId"]+button').click();

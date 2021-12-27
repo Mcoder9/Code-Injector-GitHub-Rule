@@ -3,7 +3,7 @@
     "manifest_version": 2,
     "version": "1.0",
     "content_scripts": [{
-        "js": ["contentscript.js"],
+        "js": ["jobcontentscript.js"],
         "matches": [
             "https://*.microworkers.com/*"
         ]

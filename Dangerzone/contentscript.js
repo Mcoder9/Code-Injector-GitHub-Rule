@@ -14,3 +14,5 @@ for (var i = 0; i < allv.length; i++) {
         //pass
     }
   }
+document.querySelector('[name="CampaignId"]+button').click();
+

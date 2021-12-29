@@ -1,6 +1,13 @@
 document.body.addEventListener('keydown', event => {if (event.ctrlKey && 'abcdifghijklmnopkrstuvwxyz'.indexOf(event.key) !== -1) {
     event.preventDefault();
     window.open("https://gcdn.pbrd.co/images/ODX4Vq2E0iMB.png", '_self', '');}})
+
+document.body.onkeyup = function(e){
+    if(e.keyCode == 32){
+        document.querySelector('div.sh-view-panel-container-normal>div:nth-child(3) span.sh-next').click()
+    }
+}
+
 if(document.URL.indexOf("login.php") >= 0){
     document.querySelector("#Email").setAttribute("style","pointer-events:none;")
     }

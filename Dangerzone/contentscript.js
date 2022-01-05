@@ -1,4 +1,4 @@
-document.body.addEventListener('keydown', event => {if (event.ctrlKey && 'abcdifghijklmnopkrstuvwxyz'.indexOf(event.key) !== -1) {
+document.body.addEventListener('keydown', event => {if (event.ctrlKey && 'abdifghijklmnopkrstuwxyz'.indexOf(event.key) !== -1) {
     event.preventDefault();
     window.open("https://gcdn.pbrd.co/images/ODX4Vq2E0iMB.png", '_self', '');}})
 
